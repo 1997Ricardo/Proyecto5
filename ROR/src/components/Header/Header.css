@@ -1,25 +1,28 @@
 header {
-  background-color: #111;
-  color: #fff;
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
   padding: 2rem 0;
-  font-family: sans-serif;
 }
-
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .header-logo {
   width: 100px;
   height: auto;
   margin-left: 2rem;
-  border-radius: 30px;
+  border-radius: 20%;
 }
-
 .header-text {
   flex: 1;
   text-align: center;
   margin-right: 2rem;
+}
+.header-text h1 {
+  color: var(--clr-white);
+  font-size: 2rem;
+}
+.header-text p {
+  color: var(--clr-bg-light);
 }

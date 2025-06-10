@@ -1,6 +1,69 @@
-*{
+/* Reset básico */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  background-color: var(--clr-white);
+  color: var(--clr-text);
+}
 
+/* Variables de color */
+:root {
+  --clr-primary:       #31B5A6;
+  --clr-primary-dark:  #278A7B;
+  --clr-secondary:     #4A4A4A;
+  --clr-bg-light:      #F5F5F5;
+  --clr-white:         #FFFFFF;
+  --clr-text:          #333333;
+  --font-sans:         'Arial', sans-serif;
+}
+
+/* Utilidades */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--clr-primary-dark);
+}
+.button-primary {
+  display: inline-block;
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+.button-primary:hover {
+  background-color: var(--clr-primary-dark);
+}
+.button-outline {
+  display: inline-block;
+  background-color: transparent;
+  color: var(--clr-primary);
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--clr-primary);
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+.button-outline:hover {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
