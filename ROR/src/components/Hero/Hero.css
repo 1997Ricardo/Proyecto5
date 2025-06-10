@@ -1,0 +1,30 @@
+.hero {
+    background-image: url('/src/assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 2rem;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: black;
+  }
+  
+  .hero-button {
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #77b98e;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+  }
