@@ -3,58 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   font-size: 16px;
   scroll-behavior: smooth;
 }
-
 body {
-  font-family: var(--font-sans);
+  font-family: 'Arial', sans-serif;
   line-height: 1.5;
-  background-color: var(--clr-bg);
+  background-color: var(--clr-white);
   color: var(--clr-text);
 }
 
-/* Variables de color (tema claro por defecto) */
 :root {
   --clr-primary:       #31B5A6;
   --clr-primary-dark:  #278A7B;
   --clr-secondary:     #4A4A4A;
   --clr-bg-light:      #F5F5F5;
-  --clr-bg:            #FFFFFF;
-  --clr-text:          #333333;
   --clr-white:         #FFFFFF;
+  --clr-text:          #333333;
   --font-sans:         'Arial', sans-serif;
 }
-
-/* Variables para tema oscuro */
-[data-theme="dark"] {
-  --clr-primary:       #31B5A6;
-  --clr-primary-dark:  #278A7B;
-  --clr-secondary:     #DDDDDD;
-  --clr-bg-light:      #2A2A2A;
-  --clr-bg:            #1A1A1A;
-  --clr-text:          #EEEEEE;
-  --clr-white:         #FFFFFF;
-}
-
 
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
-
 a {
   color: var(--clr-primary);
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
 }
 a:hover {
   color: var(--clr-primary-dark);
 }
-
 .button-primary {
   display: inline-block;
   background-color: var(--clr-primary);
@@ -65,12 +46,10 @@ a:hover {
   font-weight: bold;
   cursor: pointer;
   text-align: center;
-  transition: background-color 0.2s ease-in-out;
 }
 .button-primary:hover {
   background-color: var(--clr-primary-dark);
 }
-
 .button-outline {
   display: inline-block;
   background-color: transparent;
@@ -81,7 +60,6 @@ a:hover {
   font-weight: bold;
   cursor: pointer;
   text-align: center;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .button-outline:hover {
   background-color: var(--clr-primary);

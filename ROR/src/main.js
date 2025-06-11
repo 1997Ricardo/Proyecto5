@@ -24,16 +24,3 @@ document.addEventListener('DOMContentLoaded', () => {
   init();
 
 })
-  // Añadir toggle en header
-  const headerInner = document.querySelector('.header-inner');
-  const toggleBtn = document.createElement('button');
-  toggleBtn.className = 'theme-toggle';
-  toggleBtn.textContent = currentTheme === 'dark' ? '🌙' : '☀️';
-  headerInner.appendChild(toggleBtn);
-
-  toggleBtn.addEventListener('click', () => {
-    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
-    toggleBtn.textContent = theme === 'dark' ? '🌙' : '☀️';
-  });
