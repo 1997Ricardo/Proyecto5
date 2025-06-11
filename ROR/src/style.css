@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +14,6 @@ body {
   color: var(--clr-text);
 }
 
-/* Variables de color */
 :root {
   --clr-primary:       #31B5A6;
   --clr-primary-dark:  #278A7B;
@@ -26,7 +24,6 @@ body {
   --font-sans:         'Arial', sans-serif;
 }
 
-/* Utilidades */
 .container {
   width: 90%;
   max-width: 1200px;
