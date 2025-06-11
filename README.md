@@ -13,7 +13,7 @@ Una landing page dinámica y moderna desarrollada con Vite, Vanilla JavaScript y
 1. Clona el repositorio:
 
    ```bash
-   git clone <tu-repo-url> ror-landing
+   git clone <https://github.com/1997Ricardo/Proyecto5.git> ror-landing
    cd ror-landing
    ```
 2. Instala dependencias:
@@ -44,7 +44,8 @@ ror-landing/
     ├── style.css         # Estilos globales y variables CSS
     ├── main.js           # Punto de arranque, renderiza componentes
     ├── assets/           # Imágenes (perfil, logos...)
-    │   └── perfil.jpg
+    │   └── logo.png
+        └── hero.png
     └── components/       # Componentes modulares
         ├── Header/
         │   ├── Header.js
