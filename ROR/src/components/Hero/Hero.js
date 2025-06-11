@@ -3,7 +3,7 @@ import "./Hero.css";
 const Hero = () => `
 <section class="hero">
   <div class="hero-inner">
-    <img class="hero-image" src="/public/assets/hero.png" alt="Foto de perfil" />
+    <img class="hero-image" src="/assets/hero.png" alt="Foto de perfil" />
     <div class="hero-text">
       <h2>Bienvenido a ROR</h2>
       <p>Soy Ricardo Osuna, tu aliado en Readaptación y Rendimiento con enfoque en Salud Integral.
