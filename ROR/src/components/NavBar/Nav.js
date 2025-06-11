@@ -6,7 +6,7 @@ const Nav = () => `
   <ul>
     <li><a href="#services">Servicios</a></li>
     <li><a href="#contact">Contacto</a></li>
-    <li><a href="#footer">Sobre mí</a></li>
+    <li><a href="#about">Sobre mí</a></li>
   </ul>
 </nav>
     `;
