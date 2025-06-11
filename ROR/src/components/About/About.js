@@ -4,10 +4,7 @@ const About = () => `
 <section id="about" class="about container">
   <h2>Sobre mí</h2>
   <p>
-    ¡Hola! Soy Ricardo Osuna, entrenador de alto rendimiento especializado en
-    readaptación, optimización y rendimiento. Con más de X años de experiencia
-    profesional, ayudo a atletas y personas activas a recuperar funcionalidad,
-    prevenir lesiones y llevar su rendimiento al siguiente nivel.
+   Soy Ricardo Osuna, entrenador de alto rendimiento especializado en readaptación, optimización y prevención de lesiones.Ayudo a deportistas y personas activas a recuperar su funcionalidad, prevenir recaídas y alcanzar su siguiente nivel.
   </p>
   <p>
     Formación:
@@ -19,9 +16,7 @@ const About = () => `
     </ul>
   </p>
   <p>
-    Mi enfoque combina el método tradicional de entrenamiento con las últimas
-    tecnologías y técnicas de optimización, para ofrecer programas totalmente
-    personalizados y dinámicos.
+  Mi enfoque se basa en una fusión inteligente entre métodos tradicionales y tecnologías actuales: no creo en fórmulas genéricas, sino en programas adaptados, dinámicos y sostenibles para cada persona y contexto.
   </p>
 </section>
 `;
